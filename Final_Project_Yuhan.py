@@ -234,6 +234,7 @@ with tab4:
     * Cleaning the data is the hardest part. It took me probally 75% of the time.
     * There are tons of classifier and models we can use. 
     * After December 1st, 2020, streamlit remove the ability to specify no arguments in `st.pyplot()` function, which makes it harder to show the plt plot.
+    * Soccer is hard to predict.
     
     
     #### Reflection:
