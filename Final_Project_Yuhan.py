@@ -29,7 +29,7 @@ with tab1:
 
     **📁 What was the dataset?**
 
-    > 1. FIFI World Ranking 1992-2022 Oct 6th
+    > 1. FIFA World Ranking 1992-2022 Oct 6th
     > 2. Football Results from 1872-2022 Dec 6th
 
     **What machine learning method was used?**
@@ -79,7 +79,7 @@ with tab1:
 with tab2:
     st.header("Exploratory Data Analysis 🥸")
 
-    st.markdown("1. FIFI World Ranking 1992-2022")
+    st.markdown("1. FIFA World Ranking 1992-2022")
     rank = pd.read_csv("fifa_ranking-2022-10-06.csv")
     st.write(rank.head(),rank.shape)
 
@@ -193,7 +193,8 @@ with tab3:
         st.image('RandomForestClassifier_CV.png')
         
         
-with tab4:
+with tab4: 
+    st.image('ThisMorning.png')
     summary = st.selectbox(label="", options=("","Here's the prediction"))
     if summary == "Here's the prediction":
         st.markdown("""
