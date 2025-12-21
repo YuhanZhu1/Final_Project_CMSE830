@@ -16,9 +16,10 @@ st.set_page_config(page_title="CMSE 830 Final Project - World Cup Prediction", l
 
 BASE_DIR = Path(__file__).resolve().parent
 
-@st.cache_data(show_spinner=False)
+@st.cache(show_spinner=False)
 def load_csv(filename: str) -> pd.DataFrame:
     return pd.read_csv(BASE_DIR / filename)
+
 
 def safe_image(path: str, width: int = None):
     p = BASE_DIR / path
